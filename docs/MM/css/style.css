@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*.header-image::before{
+    content: "";
+   
+    position: absolute;
+    left: 0;
+    
+    right: 0;
+    top: 96%;
+    height: 95px;
+    image-rendering: -webkit-optimize-contrast;
+    background: url(../ASSETS/bgpaint.png) 50% top no-repeat;
+    
+}*/
+.header-text{
+    position: absolute;
+    top: 35px;
+    right: 0;
+    left: 0;
+}
+.header-text1{
+    position: absolute;
+    top: 35px;
+    right: 0;
+    left: 0;
+}
+
+.section{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .cost-header-image{
+        width:100%;
+        height: auto;;
+    }
+    .manner-image{
+        position: absolute !important;
+        top: 10px !important;
+        right: 12px !important;
+        width: 30% !important;
+    }
+    .header-image{
+        background-image: none !important;
+    }
+    .container-fluid{
+        margin: 0 !important;
+        padding: 0 !important;
+    } 
+  }

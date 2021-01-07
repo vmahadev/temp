@@ -1,0 +1,96 @@
+top right yellow color code - FFC74C
+building construction - 00C2FF
+.NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 26px;
+  color : #00C2FF;
+  color : rgb(0, 194, 255);
+  opacity : 0.8;
+  filter: alpha(opacity=80) progid:DXImageTransform.Microsoft.Alpha(opacity=80) ;
+}
+
+project management - 76BA43
+.NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 26px;
+  color : #76BA43;
+  color : rgb(118, 186, 67);
+  opacity : 0.95;
+  filter: alpha(opacity=95) progid:DXImageTransform.Microsoft.Alpha(opacity=95) ;
+}
+
+architrcture design - F9B43F
+.NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 26px;
+  color : #F9B43F;
+  color : rgb(249, 180, 63);
+}
+
+interior design - E51E59
+.NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 26px;
+  color : #E51E59;
+  color : rgb(229, 30, 89);
+  opacity : 0.95;
+  filter: alpha(opacity=95) progid:DXImageTransform.Microsoft.Alpha(opacity=95) ;
+}
+
+fixing and supporting - DBCE04
+.NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 26px;
+  color : #DBCE04;
+  color : rgb(219, 206, 4);
+  opacity : 0.95;
+  filter: alpha(opacity=95) progid:DXImageTransform.Microsoft.Alpha(opacity=95) ;
+}
+
+house renovation - CF80F9
+.NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 26px;
+  color : #CF80F9;
+  color : rgb(207, 128, 249);
+  opacity : 0.95;
+  filter: alpha(opacity=95) progid:DXImageTransform.Microsoft.Alpha(opacity=95) ;
+}
+
+cost estimator paint bg - FFC74C
+
+packages bg color - FCF4EB
+2star color code - 26416A
+3 star      - E16753
+5 star      - 42704E
+7 star      - B5214F
+
+our packages color code grey - 333435
+
+Packages menu- .NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 22px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+}
+
+about us menu
+.NormalCharacterStyle
+{
+  font-family : Roboto;
+  font-size : 22px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+
+}
+
+Menu under line color code  - E6E9EC
+
+
