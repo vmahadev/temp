@@ -2,37 +2,76 @@ body{
     margin: 0;
     padding: 0;
 }
-/*.header-image::before{
-    content: "";
-   
-    position: absolute;
-    left: 0;
-    
-    right: 0;
-    top: 96%;
-    height: 95px;
-    image-rendering: -webkit-optimize-contrast;
-    background: url(../ASSETS/bgpaint.png) 50% top no-repeat;
-    
-}*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    text-decoration: underline;
+    line-height: 31px;
+    font-size: 20px;
+}
 .header-text{
     position: absolute;
-    top: 35px;
+    top: 90px;
     right: 0;
     left: 0;
 }
 .header-text1{
     position: absolute;
-    top: 35px;
+    top: 90px;
     right: 0;
     left: 0;
 }
-
+/*star icon*/
+.star-icon{
+    margin-top: -0.9rem;
+}
 .section{
     display: none;
 }
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+.btn-link{
+    color:black;
+}
+.btn-link:hover{
+    color: black;
+}
+.btn .fa {
+    margin-left: 7rem;
+    top: 0;
+    left: 150px;
+    right: 0;
+    position: absolute;
+}
+.packages{
+    display: none;
+}
+.form-bg{
+    background-color: #F3F4F4;
+}
+/*how it work steps*/
 
-
+.how-it a{
+    display: flex;
+}
+.how-it-span-bg-black{
+    background-color: black;
+    padding: 0.5rem 2rem;
+    font-size: 14px;
+    width: 35%;
+    color: white;
+}
+.how-it-span-bg-yellow{
+    background-color: #ffc74c;;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    width: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #111;
+    background-color: #0d6efd00;
+    font-weight: 700;
+}
 @media only screen and (max-width: 600px) {
     
     .cost-header-image{
@@ -52,4 +91,45 @@ body{
         margin: 0 !important;
         padding: 0 !important;
     } 
+    .display-1{
+        font-size: 34px;
+    }
+    .btn-check:focus+.btn, .btn:focus{
+        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+    }
   }
+  /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .header-image{
+        background-image: none !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .header-image{
+        background-image: none !important;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .header-image{
+        background-image: none !important;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.55) !important;
+        text-decoration: underline !important;
+        line-height: 31px !important;
+        font-size: 9px !important;
+    }
+
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}
